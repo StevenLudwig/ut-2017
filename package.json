@@ -1,0 +1,20 @@
+{
+  "name": "ut-2017",
+  "version": "1.0.0",
+  "description": "ut presentation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Ebenezer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "next": "^2.4.6",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.6.1"
+  }
+}
